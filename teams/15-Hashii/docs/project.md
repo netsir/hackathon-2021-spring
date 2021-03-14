@@ -10,10 +10,7 @@ NFT是「non-fungible Token」,非同质化代币。在技术的角度上说是�
  NFTSwap是一个智能协约框架，采用去中心质押池形成的NFT价值评估体系。每个可拍卖NFT对应一个质押池，用户可以通过质押来对NFT的的估值提供价值认可，通过NFTSwap托管拍卖的NFT需要支付最终成交10-20%的佣金，这个佣金将会分给提供价值认可提供者（VP）。
  
  NFTSwap对NFT的托管、拍卖、估值、质押提供一揽子协议框架，为NFT的去中心管理提供契约参考。
-
-#### NFT托管
-
-用户可以将自己持有的NFT资产，转入NFTSwap智能契约进行托管。在NFT托管期间，NFT持有者可以对NFTSwap下达指令，进行NFT的提取、拍卖、信托等操作。
+ 
 ### 项目技术设计
 
 #### NFT托管
@@ -218,11 +215,6 @@ pub NextOrderId: T::OrderId;
 ```
 
 
-
-
-
-
-
 ### 项目现在做到的程度
 
 已完成NFTSwap 1.0版本开发，支持用户在平台创建NFT、托管NFT、NFT拍卖、质押资产、参与拍卖等操作。
@@ -239,9 +231,12 @@ pub NextOrderId: T::OrderId;
 
 ### 未来6个月的商业规划
 
-2021年3月，NFTSwap框架在波卡生态推出，并开源。
+2021年3月，NFTSwap框架在波卡生态推出并开源。
+
 2021年4月，成立NFT专项基金，扶持NFT生态，同时将NFTSwap框架在以太坊、币安智能链、火币链部署。
+
 2021年5～9月，发起倡议成立NFT标准协会，联合生态伙伴制定NFT在艺术品、游戏、门票、身份、资产等多领域的解决方案，并将标准推广到主流公链。
+
 
 ### 市场定位及调研
 
@@ -263,17 +258,32 @@ pub NextOrderId: T::OrderId;
 Englist
 ===========================================================================================================================================================
 ### Project background/reason/problem to be solved
-todo
+
+NFT is a "non-fungible Token", a non-fungible token. From a technical point of view, it is to solve the uniqueness and unique value token. In terms of attributes, it represents a new type of digital asset that has been given a certain value (this value may be artistic, rarity, mathematical, etc.).
+
+NFTSwap is a smart contract framework that uses an NFT value evaluation system formed by a decentralized pledge pool. Each auctionable NFT corresponds to a staking pool. Users can provide value recognition for the valuation of the NFT through staking. NFTs that are auctioned through NFTSwap need to pay a commission of 10-20% of the final transaction, which will be allocated to the value provided Recognized provider (VP).
+
+NFTSwap provides a package agreement framework for the custody, auction, valuation, and pledge of NFTs, and provides a contractual reference for the decentralized management of NFTs.
+
 ### Project technical design
-todo
+
+#### NFT hosting
+Users can transfer their own NFT assets to the NFTSwap smart contract for custody. During the NFT custody period, NFT holders can issue instructions to NFTSwap to carry out operations such as NFT withdrawal, auction, and trust.
+
+#### NFT Auction
+NFT holders can issue auction instructions to smart contracts. The auction needs to indicate the highest price and the lowest price, and set the auction period. The auction period is set according to the block height, and the minimum auction period shall not be less than 6000 blocks. NFT holders cannot operate NFT during the auction period; once the auction is successful, the NFT is immediately transferred to the highest bidder, and the auction is not completed (passed auction) at the expiration date, and the NFT holder can make the next order for the NFT. The highest auction price is the same as the lowest price, referred to as a buy-it-price for short, that is, the buyer must make a purchase according to the bid. The highest auction price is set to an impossible price, called a sky-high price, that is, the buyer must wait until the end of the auction period, and the highest bidder gets the price. The bidder's bid is not less than the lowest price and not less than the current highest bid. Once the bidder's bid reaches the highest price, the transaction can be concluded.
+
 ### How far the project is now
-todo
+The development of NFTSwap version 1.0 has been completed, which supports users to create NFTs on the platform, host NFTs, NFT auctions, pledge assets, participate in auctions and other operations.
+
 ### Technical difficulties encountered by the project and solutions
 todo
 ### If the project has reached a certain height when registering (it has been done before), please list the items/development work completed during the hackathon (February 1st-March 15th).
-todo
+During this period, code development functions such as NFT creation, NFT custody, auction initiation, value recognition, auction participation, and automatic settlement of proceeds were completed.
 ### Business plan for the next 6 months
-todo
+In March 2021, the NFTSwap framework was launched in the Polkadot ecosystem and open sourced.
+  In April 2021, a special NFT fund was established to support the NFT ecosystem, and the NFTSwap framework was deployed on Ethereum, Binance Smart Chain, and Huobi Chain.
+  From May to September 2021, an initiative was initiated to establish the NFT Standards Association, to work with ecological partners to develop NFT solutions in various fields such as artwork, games, tickets, identity, and assets, and to promote the standards to the mainstream public chain.
 ### Market positioning and research
 todo
 ### To what extent are the resources currently available and the project is operated
