@@ -262,3 +262,19 @@ pub NextOrderId: T::OrderId;
 
 Englist
 ===========================================================================================================================================================
+### Project background/reason/problem to be solved
+todo
+### Project technical design
+todo
+### How far the project is now
+todo
+### Technical difficulties encountered by the project and solutions
+todo
+### If the project has reached a certain height when registering (it has been done before), please list the items/development work completed during the hackathon (February 1st-March 15th).
+todo
+### Business plan for the next 6 months
+todo
+### Market positioning and research
+todo
+### To what extent are the resources currently available and the project is operated
+todo
