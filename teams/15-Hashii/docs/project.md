@@ -282,9 +282,23 @@ todo
 During this period, code development functions such as NFT creation, NFT custody, auction initiation, value recognition, auction participation, and automatic settlement of proceeds were completed.
 ### Business plan for the next 6 months
 In March 2021, the NFTSwap framework was launched in the Polkadot ecosystem and open sourced.
+
   In April 2021, a special NFT fund was established to support the NFT ecosystem, and the NFTSwap framework was deployed on Ethereum, Binance Smart Chain, and Huobi Chain.
+  
   From May to September 2021, an initiative was initiated to establish the NFT Standards Association, to work with ecological partners to develop NFT solutions in various fields such as artwork, games, tickets, identity, and assets, and to promote the standards to the mainstream public chain.
 ### Market positioning and research
-todo
+
+Product Positioning
+The world's largest NFT asset valuation auction platform.
+
+Research situation
+Communicating with many galleries, artists, and industry KOLs, the other parties have expressed a strong willingness to cooperate, and they all generally recognize that the NFTSwap framework can solve the problems of reasonable pricing of NFTs and high cost of publicity.
+
+
 ### To what extent are the resources currently available and the project is operated
-todo
+
+The experience of hosting the largest offline art exhibition in Beijing is currently preparing for the Shanghai Art Exhibition.
+
+He has cooperated with hundreds of galleries, has a large number of illustrators and artists resources, and can import high-quality NFT assets for NFTSwap.
+
+It has in-depth cooperation with the domestic leading blockchain media platform and has strong media promotion capabilities.
