@@ -222,7 +222,7 @@ pub NextOrderId: T::OrderId;
 
 ### 项目遇到的技术难点及解决方案
 
-收益算法：
+公正合理的收益算法：暂未公开
 
 
 ### 项目如果报名时已经做到一定高度 (之前已经开始做)，请列点说明在黑客松期间 (2月1日 - 3月15日) 所完成的事项/开发工作。
@@ -266,7 +266,7 @@ NFTSwap is a smart contract framework that uses an NFT value evaluation system f
 NFTSwap provides a package agreement framework for the custody, auction, valuation, and pledge of NFTs, and provides a contractual reference for the decentralized management of NFTs.
 
 ### Project technical design
-
+Fair and reasonable income algorithm: not yet published
 #### NFT hosting
 Users can transfer their own NFT assets to the NFTSwap smart contract for custody. During the NFT custody period, NFT holders can issue instructions to NFTSwap to carry out operations such as NFT withdrawal, auction, and trust.
 
