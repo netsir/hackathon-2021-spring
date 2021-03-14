@@ -244,7 +244,7 @@ pub NextOrderId: T::OrderId;
 全球最大的NFT资产价值估价拍卖平台。
 
 #### 调研情况
-与多家画廊、多名艺术家、行业KOL的沟通，对方都表达出强烈合作意愿，也都普遍认可NFTSwap框架可以解决NFT合理定价困难，宣发成本高等问题。
+与多家画廊、艺术家、行业KOL沟通后，对方都表达出强烈合作意愿，都认可NFTSwap框架可以解决NFT行业痛点，解决NFT估价困难，宣发成本高等问题。
 
 ### 现在拥有的资源及项目运营到什么程度
 
@@ -266,9 +266,8 @@ NFTSwap is a smart contract framework that uses an NFT value evaluation system f
 NFTSwap provides a package agreement framework for the custody, auction, valuation, and pledge of NFTs, and provides a contractual reference for the decentralized management of NFTs.
 
 ### Project technical design
-Fair and reasonable income algorithm: not yet published
 #### NFT hosting
-Users can transfer their own NFT assets to the NFTSwap smart contract for custody. During the NFT custody period, NFT holders can issue instructions to NFTSwap to carry out operations such as NFT withdrawal, auction, and trust.
+After communicating with many galleries, artists, and industry KOLs, the other party expressed a strong willingness to cooperate, and they all recognized that the NFTSwap framework can solve the pain points of the NFT industry, solve the problems of NFT valuation difficulties, and high publicity costs.
 
 #### NFT Auction
 NFT holders can issue auction instructions to smart contracts. The auction needs to indicate the highest price and the lowest price, and set the auction period. The auction period is set according to the block height, and the minimum auction period shall not be less than 6000 blocks. NFT holders cannot operate NFT during the auction period; once the auction is successful, the NFT is immediately transferred to the highest bidder, and the auction is not completed (passed auction) at the expiration date, and the NFT holder can make the next order for the NFT. The highest auction price is the same as the lowest price, referred to as a buy-it-price for short, that is, the buyer must make a purchase according to the bid. The highest auction price is set to an impossible price, called a sky-high price, that is, the buyer must wait until the end of the auction period, and the highest bidder gets the price. The bidder's bid is not less than the lowest price and not less than the current highest bid. Once the bidder's bid reaches the highest price, the transaction can be concluded.
@@ -277,7 +276,7 @@ NFT holders can issue auction instructions to smart contracts. The auction needs
 The development of NFTSwap version 1.0 has been completed, which supports users to create NFTs on the platform, host NFTs, NFT auctions, pledge assets, participate in auctions and other operations.
 
 ### Technical difficulties encountered by the project and solutions
-todo
+Fair and reasonable income algorithm: not yet published
 ### If the project has reached a certain height when registering (it has been done before), please list the items/development work completed during the hackathon (February 1st-March 15th).
 During this period, code development functions such as NFT creation, NFT custody, auction initiation, value recognition, auction participation, and automatic settlement of proceeds were completed.
 ### Business plan for the next 6 months
@@ -288,10 +287,10 @@ In March 2021, the NFTSwap framework was launched in the Polkadot ecosystem and 
   From May to September 2021, an initiative was initiated to establish the NFT Standards Association, to work with ecological partners to develop NFT solutions in various fields such as artwork, games, tickets, identity, and assets, and to promote the standards to the mainstream public chain.
 ### Market positioning and research
 
-Product Positioning
+#### Product Positioning
 The world's largest NFT asset valuation auction platform.
 
-Research situation
+#### Research situation
 Communicating with many galleries, artists, and industry KOLs, the other parties have expressed a strong willingness to cooperate, and they all generally recognize that the NFTSwap framework can solve the problems of reasonable pricing of NFTs and high cost of publicity.
 
 
