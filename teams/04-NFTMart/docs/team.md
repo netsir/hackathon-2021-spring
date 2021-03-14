@@ -1,8 +1,7 @@
-## NFTmart 
+## NFTSwap 
 
-- 谢善峰 @blackjooohn
-- 曹帅 @caosbad
-- 陈威 @chenwei767
-- 储奎 @GoDotDotDot
-- 水中阳 @ztNozdormu
-
+- 张永 @netsir
+- 羊三 @sheepmen
+- 楚学文 @louis-tru
+- 云峰 @yunweb
+- 廖师虎 @lshoo
