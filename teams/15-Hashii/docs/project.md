@@ -230,12 +230,12 @@ pub NextOrderId: T::OrderId;
 
 ### 项目遇到的技术难点及解决方案
 
-难点：如何设置一套公正合理的收益系统，通过博弈权衡拍卖人、质押支持者、购买者 三方的权益，帮助作品接近其合理价格，最终实现作品拍卖成功。
+难点：如何设置一套公正合理的去中心化收益算法。
 
 
 ##### 解决方案：
 
-通过价值评估博弈系统，让拍卖人、质押支持者、购买者相互制约，帮助作品接近其合理价格。
+通过价值评估博弈系统，让拍卖人、质押支持者、购买者相互制约，帮助作品接近其合理价，，最终实现作品拍卖成功。
 
 1) 当质押支持者普遍认为拍卖人拍卖的作品无多大价值时，即便拍卖成功，所得佣金也很少， 大部分 质押支持者不会质押支持。质押支持者 角色起到价值发现的作用。
 2) 当拍卖人将起拍价格设置的过高时，购买者基本不会参与竞拍，所以成交概率低，导致 质押支持者 不去质押支持。对于该作品 拍卖人与 质押支持者 存在价值偏差，质押支持者 从侧面起到价值估价的 作用。
@@ -499,7 +499,11 @@ The development of NFTSwap version 1.0 has been completed, which supports users 
 
 ### Technical difficulties encountered by the project and solutions
 
-Through the value evaluation game system, auctioneers, pledge supporters, and purchasers are mutually restricted to help the works approach their reasonable prices.
+Difficulty: How to set up a fair and reasonable decentralized revenue algorithm.
+
+##### solution:
+
+Through the value evaluation game system, the auctioneer, pledge supporter, and purchaser are mutually restricted, helping the work to approach its reasonable price, and finally achieving the success of the auction of the work.
 
 1) When the pledge supporters generally believe that the auctioned works of the auctioneer are of little value, even if the auction is successful, the commission will be very small, and most pledge supporters will not pledge support. The role of pledge supporter plays a role in value discovery.
 2) When the auctioneer sets the starting price too high, the buyer will basically not participate in the auction, so the probability of the transaction is low, which leads to the pledge supporters not to pledge support. For this work, there is a value deviation between the auctioneer and the pledge supporter, and the pledge supporter plays a role in value evaluation from the side.
