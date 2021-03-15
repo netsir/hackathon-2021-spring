@@ -241,7 +241,11 @@ pub NextOrderId: T::OrderId;
 ### 市场定位及调研
 
 #### 产品定位
-全球最大的NFT资产价值估价拍卖平台。
+NFTSwap 旨在建立去中心化的艺术品交易平台，通过算法引入支持者投票质押 支持方式，建立公平、透明、合理的艺术品价值评估体系，为创作者与收藏者的艺 术品交易流通提供公平与合理的交易方式。
+  
+通过人人都可是拍卖人、支持者、竞买者的体系，让艺术品走向普通大众，提 升大众的艺术认知观念。NFTSwap简化了艺术品交易流程，并对艺术品进行有效推广，平衡了艺术品供需关系，形成艺术品完整产业链，使得 NFTSwap 具有权威性、创造性、可靠性、交易性的特质，引领艺术市场良性发展。
+
+NFTSwap致力于成为全球最大的NFT资产价值估价拍卖平台。
 
 #### 调研情况
 与多家画廊、艺术家、行业KOL沟通后，普遍表现出强烈合作意愿，均认可NFTSwap框架可以解决NFT行业痛点，解决NFT估价困难，宣发成本高等问题。
@@ -478,7 +482,11 @@ In March 2021, the NFTSwap framework was launched in the Polkadot ecosystem and 
 ### Market positioning and research
 
 #### Product Positioning
-The world's largest NFT asset valuation auction platform.
+NFTSwap aims to establish a decentralized art trading platform, introduce supporters to vote and pledge support through algorithms, establish a fair, transparent and reasonable art value evaluation system, and provide fairness and fairness for creators and collectors of art trading and circulation. Reasonable transaction method.
+  
+Through a system in which everyone can be an auctioneer, supporter, and bidder, art will be brought to the general public and the public's artistic perception will be improved. NFTSwap simplifies the art transaction process, effectively promotes the art, balances the supply and demand of art, and forms a complete industry chain of art, making NFTSwap authoritative, creative, reliable, and transactional, leading the art market to be healthy development of.
+
+NFTSwap is committed to becoming the world's largest NFT asset valuation auction platform.
 
 #### Research situation
 Communicating with many galleries, artists, and industry KOLs, the other parties have expressed a strong willingness to cooperate, and they all generally recognize that the NFTSwap framework can solve the problems of reasonable pricing of NFTs and high cost of publicity.
