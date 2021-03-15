@@ -226,10 +226,14 @@ pub NextOrderId: T::OrderId;
 
 
 ##### 解决方案：
+
 通过价值评估博弈系统，让拍卖人、质押支持者、购买者相互制约，帮助作品接近其合理价格。
+
 1) 当质押支持者普遍认为拍卖人拍卖的作品无多大价值时，即便拍卖成功，所得佣金也很少， 大部分 质押支持者不会质押支持。质押支持者 角色起到价值发现的作用。
 2) 当拍卖人将起拍价格设置的过高时，购买者基本不会参与竞拍，所以成交概率低，导致 质押支持者 不去质押支持。对于该作品 拍卖人与 质押支持者 存在价值偏差，质押支持者 从侧面起到价值估价的 作用。
 3) 当质押支持者认可拍卖人拍卖的作品，且价格相对合理，积极参与质押支持。同时为购买者节省 筛选的成本，当 购买者 参与竞拍后，作品拍卖成功，拍卖人按比例获得拍卖收入，购买者 获得作品，质押支持者 获得佣金。
+
+
 因此，拍卖人承担合理报价的义务，实现作品交易流通变现的权益;质押支持者承担监督 拍卖人 合理报价的义务，获得价值发现与评估的奖励;购买者 作为最终的作品消费者，节约了筛 选优质项目的服务，同时享有作品的最终定价权以及检验 质押支持者的评估效果。
 
 
@@ -479,7 +483,17 @@ pub NextOrderId: T::OrderId;
 The development of NFTSwap version 1.0 has been completed, which supports users to create NFTs on the platform, host NFTs, NFT auctions, pledge assets, participate in auctions and other operations.
 
 ### Technical difficulties encountered by the project and solutions
-Fair and reasonable income algorithm: not yet published
+
+Through the value evaluation game system, auctioneers, pledge supporters, and purchasers are mutually restricted to help the works approach their reasonable prices.
+
+1) When the pledge supporters generally believe that the auctioned works of the auctioneer are of little value, even if the auction is successful, the commission will be very small, and most pledge supporters will not pledge support. The role of pledge supporter plays a role in value discovery.
+2) When the auctioneer sets the starting price too high, the buyer will basically not participate in the auction, so the probability of the transaction is low, which leads to the pledge supporters not to pledge support. For this work, there is a value deviation between the auctioneer and the pledge supporter, and the pledge supporter plays a role in value evaluation from the side.
+3) When the pledge supporter recognizes the works auctioned by the auctioneer, and the price is relatively reasonable, actively participate in the pledge support. At the same time, it saves the purchaser the cost of screening. When the purchaser participates in the auction, the auction of the work is successful, the auctioneer gets the auction revenue in proportion, the purchaser gets the work, and the pledge supporter gets a commission.
+
+
+Therefore, the auctioneer assumes the obligation of reasonable quotation and realizes the rights and interests of the work transaction circulation; the pledge supporter assumes the obligation to supervise the auctioneer’s reasonable quotation and obtain rewards for value discovery and evaluation; the purchaser is the ultimate consumer of the work, saving screening The service of high-quality projects, while enjoying the final pricing power of the work and the evaluation effect of the test pledge supporter.
+
+
 ### If the project has reached a certain height when registering (it has been done before), please list the items/development work completed during the hackathon (February 1st-March 15th).
 During this period, code development functions such as NFT creation, NFT custody, auction initiation, value recognition, auction participation, and automatic settlement of proceeds were completed.
 ### Business plan for the next 6 months
