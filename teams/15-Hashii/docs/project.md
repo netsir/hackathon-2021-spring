@@ -8,10 +8,11 @@
 在《名利场:1850 年以来的艺术品市场》一书中，提到艺术品价格有“社会性”:当社会主要购买能力的喜好发生变化时，艺术品的供需关系也会发生变化。艺术品一方面作为社会地位的象征，另一方面成为资产管理的需求。在当前物质水平日渐提升的人群中，对于精神消费的需求不断提高，艺术品则成为新的消费标的。
 
 画廊、拍卖行、艺术品交易平台等作为撮合交易的载体，依旧解决不了以下矛盾:
-1) 价格不透明，拍卖价格依赖于宣发能力和拍卖平台。 
-2) 头部效应严重，很多艺术家和艺术品无法被发现。
-3) 艺术品流动性差，多数艺术品长期无交易量。
-4)艺术品过多，投资者面临选择困难的问题。
+1)艺术品过多，投资者面临选择困难的问题。
+2)价格不明朗，拍卖价格依赖于宣发能力和拍卖平台。
+3)头部效应严重，很多艺术家和艺术品无法被发现。
+4)艺术品流动性差，多数艺术品长期无交易量。
+
  
 在传统艺术品交易中，以画廊、拍卖行作为中枢，实现创作者和收藏者的价值交换，但容易出现“两头小，中间大”的问题，“画廊、拍卖行”作为利益最大方，一方面是创作者的作品价值无法得到合理的评估，另一方面，收藏家购买了哄抬价格后的“天价”作品。为解决收藏者和创作者的“两头小”矛盾，我们引入 NFTSwap 概念，打破“画廊、拍卖方”的定价权，将其回归于买卖双方——收藏者和创作者，由支持者实现价值发现和价值评估功能。
 
@@ -288,9 +289,11 @@ In the book "Vanity Fair: The Art Market since 1850", it is mentioned that the p
 
 Galleries, auction houses, art trading platforms, etc., as vehicles for matching transactions, still cannot solve the following contradictions:
 
-The price is not transparent, and the auction price depends on the ability of publicity and the auction platform.
-The head effect is so serious that many artists and artworks cannot be discovered.
-The liquidity of artworks is poor, and most artworks have no trading volume for a long time. 4) There are too many artworks, and investors are faced with the problem of difficulty in choosing.
+1) There are too many artworks, and investors face the problem of difficult choices.
+2) The price is uncertain, and the auction price depends on the ability of publicity and the auction platform.
+3) The head effect is so serious that many artists and artworks cannot be found.
+4) The liquidity of artworks is poor, and most artworks have no trading volume for a long time.
+
 In traditional art transactions, galleries and auction houses are used as the hub to realize the value exchange between creators and collectors. However, the problem of "small at the two ends and big in the middle" is prone to appear. "Gallery and auction houses" are the parties with the greatest interest. On the one hand, the value of the creator’s work cannot be reasonably evaluated; on the other hand, the collector purchases the “expensive” work after the price has been driven up. In order to resolve the contradiction between collectors and creators, we introduce the concept of NFTSwap to break the pricing power of “galleries and auction parties” and return them to buyers and sellers—collectors and creators. Supporters realize value discovery. And value evaluation function.
 
 NFTSwap is a smart contract framework that uses an NFT value evaluation system formed by a decentralized pledge pool. Each auctionable NFT corresponds to a staking pool. Users can provide value recognition for the valuation of the NFT through staking. NFTs that are auctioned through NFTSwap need to pay a commission of 10-20% of the final transaction, and this commission will be allocated to provide value Recognized provider (VP).
