@@ -284,11 +284,18 @@ Englist
 ===========================================================================================================================================================
 ### Project background/reason/problem to be solved
 
-NFT is a "non-fungible Token", a non-fungible token. From a technical point of view, it is to solve the uniqueness and unique value token. In terms of attributes, it represents a new type of digital asset that has been given a certain value (this value may be artistic, rarity, mathematical, etc.).
+In the book "Vanity Fair: The Art Market since 1850", it is mentioned that the price of art is "social": when the society's main purchasing power preferences change, the supply and demand relationship of art will also change. On the one hand, art works as a symbol of social status, and on the other hand, it becomes a demand for asset management. Among the people whose material level is increasing day by day, the demand for spiritual consumption continues to increase, and artworks have become new consumption targets.
 
-NFTSwap is a smart contract framework that uses an NFT value evaluation system formed by a decentralized pledge pool. Each auctionable NFT corresponds to a staking pool. Users can provide value recognition for the valuation of the NFT through staking. NFTs that are auctioned through NFTSwap need to pay a commission of 10-20% of the final transaction, which will be allocated to the value provided Recognized provider (VP).
+Galleries, auction houses, art trading platforms, etc., as vehicles for matching transactions, still cannot solve the following contradictions:
 
-NFTSwap provides a package agreement framework for the custody, auction, valuation, and pledge of NFTs, and provides a contractual reference for the decentralized management of NFTs.
+The price is not transparent, and the auction price depends on the ability of publicity and the auction platform.
+The head effect is so serious that many artists and artworks cannot be discovered.
+The liquidity of artworks is poor, and most artworks have no trading volume for a long time. 4) There are too many artworks, and investors are faced with the problem of difficulty in choosing.
+In traditional art transactions, galleries and auction houses are used as the hub to realize the value exchange between creators and collectors. However, the problem of "small at the two ends and big in the middle" is prone to appear. "Gallery and auction houses" are the parties with the greatest interest. On the one hand, the value of the creator’s work cannot be reasonably evaluated; on the other hand, the collector purchases the “expensive” work after the price has been driven up. In order to resolve the contradiction between collectors and creators, we introduce the concept of NFTSwap to break the pricing power of “galleries and auction parties” and return them to buyers and sellers—collectors and creators. Supporters realize value discovery. And value evaluation function.
+
+NFTSwap is a smart contract framework that uses an NFT value evaluation system formed by a decentralized pledge pool. Each auctionable NFT corresponds to a staking pool. Users can provide value recognition for the valuation of the NFT through staking. NFTs that are auctioned through NFTSwap need to pay a commission of 10-20% of the final transaction, and this commission will be allocated to provide value Recognized provider (VP).
+
+NFTSwap provides a package agreement framework for the custody, auction, valuation, and pledge of NFTs, and provides contractual reference for the decentralized management of NFTs.
 
 ### Project technical design
 #### NFT hosting
